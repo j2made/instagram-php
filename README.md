@@ -1,5 +1,5 @@
 # instagram-php
-WordPress function to integrate an Instagram feed via PHP and JSON.
+Simple WordPress function to integrate an Instagram feed via PHP and JSON.
 
 ## Installation
 1. Place script from instagram.php in WordPress `functions.php`.
