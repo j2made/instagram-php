@@ -3,6 +3,7 @@ Simple WordPress function to integrate an Instagram feed via PHP and JSON.
 
 ## Installation
 Wordpress:
+
 1. Place script from instagram.php in WordPress `functions.php`.
 2. Begin using function tag in your theme files.
 
@@ -14,13 +15,13 @@ Wordpress:
 Register a new client by visiting http://instagram.com/developer/. Make sure you are logged in as the target account.
 
 Once the client is created, change the following url to match the parameters of the client:
-https://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID&redirect_uri=REDIRECT-URI&response_type=token
+`https://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID&redirect_uri=REDIRECT-URI&response_type=token`
 
 This will respond in a redirect with the access token in the url.
 
 **To find the user id:**
 Enter the following into your broswer url, changing the values to match the parameters of the user:
-https://api.instagram.com/v1/users/search?q=USERNAME&access_token=ACCESS TOKEN
+`https://api.instagram.com/v1/users/search?q=USERNAME&access_token=ACCESS TOKEN`
 
 This will return some json data, including your user ID
 
